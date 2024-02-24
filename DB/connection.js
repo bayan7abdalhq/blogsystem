@@ -8,7 +8,7 @@ export const sequelize = new Sequelize('freedb_blogsystem3', 'freedb_bayan', 'wU
 
 export const connectDB =async()=>{
     try{
-           return await sequelize.sync({alter:false,force:false});
+           return await sequelize.sync({alter:true,force:true});
     }
     catch(error){
         console.log("error to connect to database");

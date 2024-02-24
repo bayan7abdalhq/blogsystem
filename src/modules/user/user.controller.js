@@ -1,6 +1,5 @@
 import blogModel from "../../../DB/model/blog.model.js";
 import userModel from "../../../DB/model/user.model.js";
-import {Op} from "sequelize";
 
 export const getUsers = async (req, res) => {
   try {
