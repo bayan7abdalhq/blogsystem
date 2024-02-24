@@ -1,6 +1,7 @@
 import { Sequelize } from 'sequelize';
-export const sequelize = new Sequelize('blogsystem', 'root', '', {
-    host: 'localhost',
+export const sequelize = new Sequelize('freedb_blogsystem3', 'freedb_bayan', 'wUCeQ%Re6UVCEw9', {
+    host: 'sql.freedb.tech',
+    port:3306,
     dialect: 'mysql'
   });
 
